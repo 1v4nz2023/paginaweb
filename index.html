@@ -44,7 +44,6 @@
                     <p style="text-align: justify;">En la mayor parte de su territorio, comprende una porción de la vertiente oriental cordillera de los Andes surcada por los ríos Marañón y Huallaga y una parte del llano amazónico al este en la provincia de Puerto Inca. El tercio suroccidental corresponde a la región de la sierra, mientras el resto del departamento está cubierto por la selva amazónica. Recibe su nombre en referencia a su capital y sede regional: la ciudad de Huánuco fue fundada el 15 de agosto de 1539. Tras la independencia, fue designado como departamento el 24 de enero de 1869.</p>
 
                 </p>
-                <a href="index.html" class="btn__portada">Volver</a>
 
             </div>
 
@@ -110,7 +109,6 @@
                         </tr>
                     </tbody>
                 </table></div>
-                <p><a href="index.html" class="btn__portada">Volver</a></p>
 
             </div>
         </section>
@@ -134,42 +132,52 @@
             </table>
             
         </div>
-        <p class="boton_volver"><a href="index.html" class="btn__portada">Volver</a></p>
 </section>
 
 
 
 <section class="secciones" id="contacto">
         <div class="contenedor__contacto">
-            <h2>¡DÉJANOS UN MENSAJE!</h2>
+            <div>
+                <h2>¡DÉJANOS UN MENSAJE!</h2>
+                <h3>NOS CONTACTAREMOS PRONTO</h3>
+    
+                <form >
+                    <div class="separador__form">
+                        <label>Nombres y Apellidos:</label><br>
+                        <input type="text"  name="nombre" id="name"  placeholder="Escriba su nombre completo" required>
+                    </div>
+                    <div class="separador__form">
+                        <label>Email:</label><br>
+                        <input type="email" name="correo" id="net" required>
+                    </div>
+            
+                    <div class="separador__form">
+                        <label>Teléfono de contacto: </label><br>
+                        <input type="number" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==9) return false;" required >
+                    </div>
+            
+                    <div class="separador__form">
+                        <label>Comentarios </label><br>
+                        <textarea placeholder="Ingrese sus consultas" rows="10"></textarea>
+                    </div>
+            
+                    <div class="separador__btn"><input class="btn__enviar" type="submit" value="Enviar">    
+                    </div>
+                
+                </form>
+            </div>
+       
+        
         </div>
-        <div class="contenedor__contacto2">
-            <h3>NOS CONTACTAREMOS PRONTO</h3>
-        </div>
- <div class="contenedor__contacto3">
-    
-    <form action="ejemplo.php">
-        <p>Nombre y apellido :</p>
-        <p><input type="text"  name="nombre" id="name"  placeholder="Escriba su nombre completo" required></p>
-        <p>Email : </p>
-        <p><input type="email" name="correo" id="net" required></p>
-         <p>Teléfono de contacto: </p>
-         <p><input type="number" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==9) return false;" required ></p>
-         <p>Comentarios :</p>
-         <p><input type="text"  name="coment" id="comentarios"  placeholder="Consulta" required></p>
-    <div>
-        <p><input class="btn__portada" type="submit" value="Enviar">
-            <input class="btn__portada" type="reset" value="Borrar"></p>
-    
-    </div>
-    
-    </form>
+        
 
- </div>
+    
+ 
+
         
 
     </div>
-    <p class="boton_volver"><a href="index.html" class="btn__portada">Volver</a></p>
 </section>
 
     </main>

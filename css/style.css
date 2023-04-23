@@ -211,32 +211,42 @@ color:white;
 
 .contenedor__contacto{
     background: rgba(255, 255, 255, 0.817);
-    display: flex;
-    justify-content: center;
-    max-width: 900px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding:0 0 20px 0;
+    padding:3%;
+    display: flex;
+    justify-content: center;
 }
 
-.contenedor__contacto2{
-    background: rgba(255, 255, 255, 0.817);
-    display: flex;
-    justify-content: center;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding:0;
+
+.separador__form{
+margin-bottom: 20px;
+}
+.separador__form input, .separador__form textarea  {
+    width: 100%;
+    background: #11992887;
+
 }
 
-.contenedor__contacto3{
-    background: rgba(255, 255, 255, 0.817);
-    display: flex;
-    justify-content: center;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding:0 0 50px 0;
+.btn__enviar{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background: rgba(0, 0, 0, 0.671);
+    padding: 8px 10px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.btn__enviar:hover{
+    background: black;
+}
+
+.separador__btn{
+    text-align: center;
 }
 .footer{
     background: black;
